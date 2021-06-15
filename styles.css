@@ -1,0 +1,105 @@
+body {
+    background-color: lightgreen;
+
+
+
+}
+
+hr {
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    font-size:  50px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin: 50px;
+    text-align: center;
+    
+
+
+}
+
+.border {
+    border: 5px solid rgb(109, 219, 18);
+    width: 50%;
+}
+
+ul {
+    color: red;
+    display: inline
+}
+
+img {
+    
+border-radius: 50%;
+ 
+    
+}
+a{
+    margin: 10px;
+    font-size:50px
+}
+
+header{
+    border: 5px solid rgb(14, 153, 23);
+    border-top-right-radius:5% ;
+    margin-bottom:20px;
+}
+section {
+    border: 5px solid greenyellow;
+    border-top-right-radius: 10%;
+    padding:10px;
+    padding-bottom:20px;
+    text-align:center;
+    font: size 10px;
+    
+}
+ul{
+    list-style: none;
+    color: blue;
+    font-size:40px
+    
+}
+
+.navbar {
+    border: 1px solid rgb(12, 246, 12);
+    margin-bottom:50px;
+    text-align: center;
+    padding-top:10px;
+    
+}
+
+.container {
+    margin: 40px;
+    
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
+    
+    
+}
+.menu li{
+    
+}
+section {
+    font-size:  50px
+}
+
+@media (min-width: 1024px) {
+
+    .menu li{
+        display: inline;
+        
+    }
+    body{
+        background-color:rgb(0, 255, 221)
+    }
+    section{
+        background-color: yellow;
+    }
+}
